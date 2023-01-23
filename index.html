@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona html</title>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="css/fontello.css" type="text/css">
+    <script type="text/javascript" src="timer.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body onload="odliczanie();">
+<div id="wrapper">
+    <header>
+        <img class="left" src="mail_logo.jpg" alt="envelope"> info@transport.org
+        <img class="center" src="clock.jpg" alt="clock"> Mon - Fri 8:00-16:00
+        <img class="right" src="phone.jpg" alt="phone"> +48 123-456-789
+
+        <div id="zegar"></div>
+    </header>
+
+    <h2>
+        <img class="center" src="logo.png" alt="logo truck">
+    </h2>
+
+    <nav>
+        <a class="menu" href="#">Home</a>
+        <a class="menu" href="#">Vehicle Gallery</a>
+        <a class="menu" href="#">Services</a>
+        <a class="menu" href="#">Pages</a>
+        <a class="menu" href="#">Blog</a>
+        <a class="menu" href="#">Contacts</a>
+        <a class="menu" href="#"><img src="lupa.png" alt="lupa" width="14"></a>
+    </nav>
+    <div class="airplane">
+        <img src="airplane.jpg" alt="airplane">
+        <div class="airplane-text-title">UNLIMITED DELIVERY</div>
+        <div class="airplane-text">We help people save time, make their life better, exercising communications, both in
+            business and private life
+        </div>
+        <div class="airplane-left-button"><</div>
+        <div class="airplane-right-button">></div>
+        <div class="airplane-learn-more">LEARN MORE</div>
+    </div>
+
+    <section id="offer">
+        <div class="offer-container-title">WHAT WE OFFER</div>
+        <div class="offer-container">
+            <div>
+                <img src="cubes.jpg" alt="cubes">
+                <div class="text1">Team Spirit</div>
+                <div class="text2">We help each other, wherever we are. This makes work easier</div>
+            </div>
+            <div>
+                <img src="truck.jpg" alt="truck">
+                <div class="text1">Join the industry</div>
+                <div class="text2"> As you might expect, joining this industry gives you opportunities</div>
+            </div>
+            <div>
+                <img src="map.jpg" alt="map">
+                <div class="text1">Find the nearest branch</div>
+                <div class="text2">You can freely use our interactive map to find the nearest office</div>
+            </div>
+        </div>
+        <div class="offer-container">
+            <div>
+                <img src="star.jpg" alt="star">
+                <div class="text1">New technologies</div>
+                <div class="text2">If you're in logistics, expect to work with 3-D graphics</div>
+            </div>
+            <div>
+                <img src="clouds.jpg" alt="clouds">
+                <div class="text1">24/7 Support</div>
+                <div class="text2">Our experts work day and night to solve all your cargo-related problems</div>
+            </div>
+            <div>
+                <img src="suitcase.jpg" alt="suitcase">
+                <div class="text1">Document preparation</div>
+                <div class="text2">Our document maintenance methodology is dependable</div>
+            </div>
+        </div>
+
+    </section>
+
+    <div id="counters">
+        <div id="counters-title">COUNTERS</div>
+        <div id="counters-buttons">
+            <a class="menu2" href="#">Trucks</a>|
+            <a class="menu2" href="#">Planes</a>|
+            <a class="menu2" href="#">Vessels</a>|
+            <a class="menu2" href="#">Tons of cargo</a>
+        </div>
+    </div>
+    <div id="services">
+        <div id="services-title">OUR SERVICES</div>
+        <div id="services-text">Our transportation company has been offering vast set of reliable solutions for
+            businesses and individuals all over the world since our establishment
+        </div>
+        <div>
+            <div class="services-pictures">
+                <div>
+                    <div class="services-name" id="service_transport">Transportation</div>
+                    <img src="Transportation.jpg" alt="Transport">
+                </div>
+                <div>
+                    <div class="services-name">Logistics</div>
+                    <img src="Logistics.jpg" alt="Logistics">
+                </div>
+                <div>
+                    <div class="services-name">Towing Service</div>
+                    <img src="Towing_service.jpg" alt="Towing service">
+                </div>
+            </div>
+            <div class="services-pictures">
+                <div>
+                    <div class="services-name">Maintenance</div>
+                    <img src="Maintenance.jpg" alt="Maintenance">
+                </div>
+                <div>
+                    <div class="services-name">Distribution</div>
+                    <img src="Distribution.jpg" alt="Distribution">
+                </div>
+                <div>
+                    <div class="services-name">Storage</div>
+                    <img src="Storage.jpg" alt="Storage">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="team">
+        <div class="team-title">OUR TEAM</div>
+        <div id="team-pictures">
+            <div class="team-picture"><a href="https://www.linkedin.com/"><img src="Mark.jpg" alt="Mark"></a></div>
+            <div class="team-picture"><a href="https://www.linkedin.com"><img src="Eva.jpg" alt="Eva"></a></div>
+            <div class="team-picture"><a href="https://www.linkedin.com"><img src="Sam.jpg" alt="Sam"></a></div>
+        </div>
+    </div>
+
+    <div class="latest">
+        <div class="latest-title">LATEST NEWS</div>
+        <div class="articles">
+            <div id="article1"><a
+                    href="https://www.wsj.com/articles/u-s-container-imports-tumbled-close-to-prepandemic-levels-in-december-11673373778"><img
+                    src="article1.jpg" alt="article1"></a></div>
+            <div id="article2"><a
+                    href="https://www.wsj.com/articles/freight-forwarder-flexport-is-laying-off-20-of-its-workforce-11673468390"><img
+                    src="article2.jpg" alt="article2"></a></div>
+            <div id="article3"><a
+                    href="https://www.wsj.com/articles/freight-broker-c-h-robinson-ousts-ceo-bob-biesterfeld-11672775043"><img
+                    src="article3.jpg" alt="article3"></a></div>
+        </div>
+    </div>
+    <footer>
+        <div id="footer-items">
+            <div><img src="logo.png" alt="logo"></div>
+            <div class="footer-icons"><a href="https://www.facebook.com/"><i class="demo-icon icon-facebook"></i></a><a
+                    href="https://www.linkedin.com"><i class="demo-icon icon-linkedin-squared"></i></a><a
+                    href="https://www.instagram.com"><i class="demo-icon icon-instagram"></i></a><a
+                    href="mailto:myexample@mail.com"><i class="demo-icon icon-gmail"></i></a></div>
+            <div id="copyrights">© 2022 All rights reserved Terms of Use Privacy Policy</div>
+        </div>
+    </footer>
+</div>
+
+
+</body>
+
+</html>
